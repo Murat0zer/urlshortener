@@ -1,2 +1,1 @@
-# urlshorter
-URL Kısaltma Servisi
+Django ile yapılmış bir url kısaltma servisi.
