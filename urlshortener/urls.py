@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 """urlshortener URL Configuration
+=======
+"""urlshorter URL Configuration
+>>>>>>> a3935f5cb7149c5d45d3e0d931cc20de28a6e267
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/

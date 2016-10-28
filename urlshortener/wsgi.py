@@ -1,5 +1,9 @@
 """
+<<<<<<< HEAD
 WSGI config for urlshortener project.
+=======
+WSGI config for urlshorter project.
+>>>>>>> a3935f5cb7149c5d45d3e0d931cc20de28a6e267
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +15,10 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+<<<<<<< HEAD
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "urlshortener.settings")
+=======
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "urlshorter.settings")
+>>>>>>> a3935f5cb7149c5d45d3e0d931cc20de28a6e267
 
 application = get_wsgi_application()
