@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from shortener.views import url_redirect_fb_view, UrlREdirectCBView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^a/(?P<shortcode>[\w-]+)/$', url_redirect_fb_view),
+    url(r'^b/(?P<shortcode>[\w-]+)/$', UrlREdirectCBView.as_view()),
 ]
